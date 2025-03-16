@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../assets/Content.css"
 import HeroSections from '../sections/HeroSections'
 import OurProducts from '../sections/OurProducts'
 const Content = () => {

@@ -1,0 +1,29 @@
+#ContactForm
+{
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#ContactForm #ContactData
+{
+    width: 50%;
+    align-content: center;
+}
+#ContactForm #ContactData h3
+{
+    color: white;
+    font-size: 1.6rem;
+    margin: 20px 0px;
+}
+#ContactForm #ContactData ul li , a
+{
+    color: white;
+}
+
+#ContactForm #LocationData
+{
+    width: 50%;
+    align-content: center;
+}
