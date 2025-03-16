@@ -3,7 +3,7 @@ import "../../assets/Footer.css"
 import ContactForm from "../sections/ContactForm";
 const Footer = () => {
   return (
-    <footer>
+    <footer id="Footer">
       <div className="container">
         <ContactForm />
       </div>
