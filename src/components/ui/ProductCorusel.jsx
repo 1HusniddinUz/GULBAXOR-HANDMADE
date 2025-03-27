@@ -7,59 +7,59 @@ import "swiper/css/effect-coverflow";
 const products = [
   {
     id: 1,
-    name: "Blue Dress",
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
+    name: "Ayollar kostyumi",
+    img: `/src/assets/media/1.jpg`,
     price: 100,
     type: "Clothes",
   },
   {
     id: 2,
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
-    name: "Shirt",
+    img: `/src/assets/media/2.jpg`,
+    name: "Ayollar sumkasi",
     price: 50,
-    type: "Clothes",
+    type: "Bags",
   },
   {
     id: 3,
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
-    name: "Sweater",
+    img: `/src/assets/media/3.jpg`,
+    name: "Ayollar sumkasi",
     price: 150,
-    type: "Clothes",
+    type: "Bags",
   },
   {
     id: 4,
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
-    name: "Shoes",
+    img: `/src/assets/media/4.jpg`,
+    name: "Ayollar kostyumi",
     price: 200,
     type: "Clothes",
   },
   {
     id: 5,
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
-    name: "Big Pocket",
+    img: `/src/assets/media/5.jpg`,
+    name: "Ayollar kostyumi",
     price: 100,
-    type: "Bags",
+    type: "Clothes",
   },
   {
     id: 6,
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
-    name: "Blue Bag",
+    img: `/src/assets/media/6.jpg`,
+    name: "Ayollar kostyumi",
     price: 150,
     type: "Bags",
   },
   {
     id: 7,
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
-    name: "White Bag",
+    img: `/src/assets/media/7.jpg`,
+    name: "Ayollar kostyumi",
     price: 120,
     type: "Bags",
   },
   {
     id: 8,
-    img: "https://silkgranat.uz/wp-content/uploads/2022/11/a0048.webp",
-    name: "Cycle Bag",
+    img: `/src/assets/media/8.jpg`,
+    name: "Ayollar kostyumi",
     price: 130,
-    type: "Bags",
+    type: "Clothes",
   },
 ];
 
@@ -68,7 +68,7 @@ const ProductCarousel = () => {
     <div className="carousel-container">
       <Swiper
         modules={[Navigation, EffectCoverflow]}
-        spaceBetween={50}
+        spaceBetween={150}
         slidesPerView={3} // 3ta element chiqadi
         centeredSlides={true} // Markazga olish
         navigation // Next va Prev tugmalari

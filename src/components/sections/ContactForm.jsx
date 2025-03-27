@@ -9,7 +9,7 @@ const ContactForm = () => {
           <li>Menejer : Палончаев Палонча</li>
           <li>
             <a href="#" target="_blank" rel="noopener noreferrer">
-              Phone : +998(99) 999-99-99
+              Phone : +998(93) 686 78 85
             </a>
           </li>
         </ul>
