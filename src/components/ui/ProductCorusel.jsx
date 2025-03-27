@@ -3,60 +3,67 @@ import { Navigation, EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
-
+import img1 from "../../assets/media/1.jpg"
+import img2 from "../../assets/media/2.jpg"
+import img3 from "../../assets/media/3.jpg"
+import img4 from "../../assets/media/4.jpg"
+import img5 from "../../assets/media/5.jpg"
+import img6 from "../../assets/media/6.jpg"
+import img7 from "../../assets/media/7.jpg"
+import img8 from "../../assets/media/8.jpg"
 const products = [
   {
     id: 1,
     name: "Ayollar kostyumi",
-    img: `/src/assets/media/1.jpg`,
+    img: img1,
     price: 100,
     type: "Clothes",
   },
   {
     id: 2,
-    img: `/src/assets/media/2.jpg`,
+    img: img2,
     name: "Ayollar sumkasi",
     price: 50,
     type: "Bags",
   },
   {
     id: 3,
-    img: `/src/assets/media/3.jpg`,
+    img: img3,
     name: "Ayollar sumkasi",
     price: 150,
     type: "Bags",
   },
   {
     id: 4,
-    img: `/src/assets/media/4.jpg`,
+    img: img4,
     name: "Ayollar kostyumi",
     price: 200,
     type: "Clothes",
   },
   {
     id: 5,
-    img: `/src/assets/media/5.jpg`,
+    img: img5,
     name: "Ayollar kostyumi",
     price: 100,
     type: "Clothes",
   },
   {
     id: 6,
-    img: `/src/assets/media/6.jpg`,
+    img: img6,
     name: "Ayollar kostyumi",
     price: 150,
     type: "Bags",
   },
   {
     id: 7,
-    img: `/src/assets/media/7.jpg`,
+    img: img7,
     name: "Ayollar kostyumi",
     price: 120,
     type: "Bags",
   },
   {
     id: 8,
-    img: `/src/assets/media/8.jpg`,
+    img: img8,
     name: "Ayollar kostyumi",
     price: 130,
     type: "Clothes",
