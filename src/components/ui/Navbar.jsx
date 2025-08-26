@@ -1,6 +1,8 @@
 import React from "react";
 import "../../assets/Navbar.css";
+import {useTranslation} from "react-i18next";
 const Navbar = () => {
+    const {t , i18n} = useTranslation();
     return (
         <nav>
             {/*<a href="/" style={{ width: "20%" }}>*/}
@@ -12,22 +14,31 @@ const Navbar = () => {
             {/*    alt="NaqshbandHunarmadlari Logo"*/}
             {/*  />*/}
             {/*</a>*/}
-            <h1>KORXONA NOMI</h1>
+            <h1>GULBAHOR-HANDMADE</h1>
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/">{t(`headersec`)}</a>
                 </li>
                 <li>
-                    <a href="/">About </a>
+                    <a href="#OurProducts">{t(`products`)}</a>
                 </li>
                 <li>
-                    <a href="#OurProducts">Our Products</a>
-                </li>
-                <li>
-                    <a href="#Footer">Contacts</a>
+                    <a href="#Footer">{t(`contact`)}</a>
                 </li>
             </ul>
             {/* LANG PROVIDER */}
+            <div className="lang_switcher_mobile">
+                <a href="tel:+998918208446">+998 91 820-84-46</a>
+                <select
+                    id="select"
+                    onChange={(e) => i18n.changeLanguage(e.target.value)}
+                    defaultValue="ru"
+                >
+                    <option value="ru">🇷🇺 Русский</option>
+                    <option value="en">🇬🇧 English</option>
+                    <option value="uz">🇺🇿 O'zbek</option>
+                </select>
+            </div>
         </nav>
     );
 };

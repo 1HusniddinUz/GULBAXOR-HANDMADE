@@ -16,13 +16,16 @@
 }
 #HeroText h1
 {
+    margin: 0 auto;
+    width: 50%;
     color: white;
     font-weight: 600;
     font-size: 3rem;
 }
 #HeroText p
 {
-    margin: 20px 0px;
+    width: 60%;
+    margin: 20px auto;
     color: white;
     font-weight: 400;
     font-size: 1rem;
@@ -30,6 +33,7 @@
 #HeroText button
 {
     cursor: pointer;
+    font-family: "Montserrat", sans-serif;
     width: 200px;
     padding: 18px;
     font-size: 1rem;
