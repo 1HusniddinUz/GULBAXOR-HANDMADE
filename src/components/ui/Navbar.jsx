@@ -28,7 +28,9 @@ const Navbar = () => {
             </ul>
             {/* LANG PROVIDER */}
             <div className="lang_switcher_mobile">
-                <a href="tel:+998918208446">+998 91 820-84-46</a>
+                <a href="tel:+998997234487" target="_blank" rel="noopener noreferrer">
+                    {t(`phone`)} : +998(99) 723 44 87
+                </a>
                 <select
                     id="select"
                     onChange={(e) => i18n.changeLanguage(e.target.value)}

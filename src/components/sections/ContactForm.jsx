@@ -1,6 +1,7 @@
 import React from "react";
 import "../../assets/ContactForm.css";
 import {useTranslation} from "react-i18next";
+import Logo from "../../assets/media/Gulbaxor logo.png"
 const ContactForm = () => {
     const {t , i18n} = useTranslation();
 
@@ -16,7 +17,13 @@ const ContactForm = () => {
                       {t(`phone`)} : +998(99) 723 44 87
                   </a>
               </li>
-              <a href="https://www.instagram.com/gulbaxor_hand_made" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i> GULBAHOR HANDMADE</a>
+                <li className="logo_social_box">
+                    <img src={Logo} alt="GULBAXOR HANDMADE LOGO"/>
+                    <div className="social_box">
+                        <a href="https://www.instagram.com/gulbaxor_hand_made" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i> GULBAHOR HANDMADE</a>
+                        <a href="https://www.instagram.com/gulbaxor_hand_made" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-telegram"></i> GULBAHOR HANDMADE</a>
+                    </div>
+                </li>
           </ul>
       </div>
         <div id="LocationData">
