@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/ContactForm.css";
 import {useTranslation} from "react-i18next";
-import Logo from "../../assets/media/Gulbaxor logo.png"
+import Logo from "../../../public/favicon.png"
 const ContactForm = () => {
     const {t , i18n} = useTranslation();
 
