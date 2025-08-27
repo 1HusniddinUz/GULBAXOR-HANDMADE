@@ -29,7 +29,7 @@ const Navbar = () => {
             {/* LANG PROVIDER */}
             <div className="lang_switcher_mobile">
                 <a href="tel:+998997234487" target="_blank" rel="noopener noreferrer">
-                    {t(`phone`)} : +998(99) 723 44 87
+                    {t(`phone`)} +998(99) 723 44 87
                 </a>
                 <select
                     id="select"

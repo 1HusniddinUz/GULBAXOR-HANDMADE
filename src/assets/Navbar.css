@@ -7,14 +7,18 @@ nav
 }
 nav h1
 {
+    width: 30%;
     color: black;
     font-size: 2rem;
     font-weight: 600;
+    justify-content: left;
 }
 nav ul
 {
+    width: 30%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 25px;
 }
 nav ul li a
@@ -23,10 +27,11 @@ nav ul li a
 }
 .lang_switcher_mobile
 {
-    width: 18%;
+    width: 30%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
+    gap: 25px;
 }
 .lang_switcher_mobile select {
     background-color: #c79d5e;

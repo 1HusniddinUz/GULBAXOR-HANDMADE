@@ -11,65 +11,65 @@ import img5 from "../../assets/media/5.jpg"
 import img6 from "../../assets/media/6.jpg"
 import img7 from "../../assets/media/7.jpg"
 import img8 from "../../assets/media/8.jpg"
-import {t} from "i18next";
+// import {t} from "i18next";
 
 
 const products = [
 
   {
     id: 1,
-    name: `${t(`womenSuit`)}`,
+    name: `Ayollar ko'ylagi`,
     img: img1,
-    price: 100,
+    price: 75,
     type: "Clothes",
   },
   {
     id: 2,
     img: img2,
-    name: `${t(`womenBags`)}`,
-    price: 50,
+    name: `Ayollar sumkasi`,
+    price: 12,
     type: "Bags",
   },
   {
     id: 3,
     img: img3,
-    name: `${t(`womenBags`)}`,
-    price: 150,
+    name: `Ayollar sumkasi`,
+    price: 17,
     type: "Bags",
   },
   {
     id: 4,
     img: img4,
-    name: `${t(`womenSuit`)}`,
-    price: 200,
+    name: `Ayollar ko'ylagi`,
+    price: 65,
     type: "Clothes",
   },
   {
     id: 5,
     img: img5,
-    name: `${t(`womenSuit`)}`,
-    price: 100,
+    name: `Ayollar ko'ylagi`,
+    price: 80,
     type: "Clothes",
   },
   {
     id: 6,
     img: img6,
-    name: `${t(`womenSuit`)}`,
-    price: 150,
+    name: `Ayollar ko'ylagi`,
+    price: 65,
     type: "Bags",
   },
   {
     id: 7,
     img: img7,
-    name: `${t(`womenSuit`)}`,
-    price: 120,
+    name: `Ayollar ko'ylagi`,
+    price: 65,
     type: "Bags",
   },
   {
     id: 8,
     img: img8,
-    name: `${t(`womenSuit`)}`,
-    price: 130,
+    name: `Ayollar ko'ylagi`,
+    price: 37,
     type: "Clothes",
   },
 ];
