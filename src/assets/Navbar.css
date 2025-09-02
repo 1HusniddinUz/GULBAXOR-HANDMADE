@@ -55,7 +55,10 @@ navbar h1 {
     align-items: center;
     gap: 20px;
 }
-
+.lang_switcher_mobile a
+{
+    color: white;
+}
 .lang_switcher_mobile select {
     background-color: #c79d5e;
     color: #fff;
