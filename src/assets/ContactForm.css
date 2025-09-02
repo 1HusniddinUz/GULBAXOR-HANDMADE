@@ -1,64 +1,91 @@
-#ContactForm
-{
+#ContactForm {
     padding: 20px 0px;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-#ContactForm #ContactData
-{
-    width: 50%;
-    align-content: center;
+
+/* Chap taraf (Kontakt ma’lumotlar) */
+#ContactForm #ContactData {
+    flex: 1;
+    min-width: 300px;
 }
-#ContactForm #ContactData h3
-{
+#ContactForm #ContactData h3 {
     color: white;
     font-size: 1.6rem;
     margin: 20px 0px;
 }
-#ContactForm #ContactData ul li , a
-{
+#ContactForm #ContactData ul li,
+#ContactForm #ContactData a {
     color: white;
+    font-size: 1rem;
 }
-
-#ContactForm #LocationData
-{
-    width: 50%;
-    align-content: center;
-}
-#ContactForm #ContactData  a
-{
+#ContactForm #ContactData a {
     display: flex;
     gap: 10px;
     align-items: center;
+    transition: color 0.3s ease;
 }
-#ContactForm #ContactData  a i
-{
-    font-size: 2rem;
+#ContactForm #ContactData a:hover {
+    color: #FFD700; /* Hover effekti */
 }
-#ContactForm #ContactData  .logo_social_box
-{
+#ContactForm #ContactData a i {
+    font-size: 1.6rem;
+}
+#ContactForm #ContactData .logo_social_box {
     margin: 20px 0px;
-    width: 50%;
     display: flex;
     align-items: center;
     gap: 25px;
 }
-#ContactForm #ContactData  .logo_social_box img
-{
-    width: 100px;
+#ContactForm #ContactData .logo_social_box img {
+    width: 80px;
 }
-#ContactForm #ContactData  .logo_social_box .social_box
-{
-    width: 60%;
+#ContactForm #ContactData .logo_social_box .social_box {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-#ContactForm #LocationData h3
-{
+
+/* O‘ng taraf (Lokatsiya) */
+#ContactForm #LocationData {
+    flex: 1;
+    min-width: 300px;
+}
+#ContactForm #LocationData h3 {
     margin: 10px 0px;
     color: white;
     font-size: 1.6rem;
+}
+#ContactForm #LocationData iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* 📱 Responsiv versiya */
+@media (max-width: 1024px) {
+    #ContactForm {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    #ContactForm #ContactData,
+    #ContactForm #LocationData {
+        width: 100%;
+        text-align: center;
+    }
+    #ContactForm #ContactData .logo_social_box {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    #ContactForm #ContactData .logo_social_box img {
+        width: 70px;
+    }
+    #ContactForm #ContactData a {
+        justify-content: center;
+    }
 }

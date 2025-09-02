@@ -31,7 +31,7 @@ const ContactForm = () => {
                 {t(`location`)}
             </h3>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1533.1640342100022!2d64.4414957!3d39.7771924!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f50059e4be78105%3A0xdffcc32a2eefa04e!2sKichik%20biznesga%20ko&#39;maklashish%20markazi%20%7C%20Tadbirkorlar%20biznes%20klubi!5e0!3m2!1sru!2s!4v1756195345846!5m2!1sru!2s"
+                src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6137.728623120743!2d64.549691!3d39.720232!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQzJzEyLjgiTiA2NMKwMzInNTguOSJF!5e0!3m2!1sru!2s!4v1756298820606!5m2!1sru!2s"
                 width="100%"
                 height="400"
           style={{ border: 0 }}

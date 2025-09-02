@@ -80,7 +80,6 @@ const ProductCarousel = () => {
       <Swiper
         modules={[Navigation, EffectCoverflow]}
         spaceBetween={150}
-        slidesPerView={3} // 3ta element chiqadi
         centeredSlides={true} // Markazga olish
         navigation // Next va Prev tugmalari
         effect="coverflow" // Coverflow animatsiyasi
@@ -92,6 +91,21 @@ const ProductCarousel = () => {
           slideShadows: false,
         }}
         loop
+        breakpoints={{
+            0: {            // Mobil
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            600: {          // Planshet
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1024: {         // Desktop
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        }}
+
       >
         {products.map((product) => (
           <SwiperSlide key={product.id}>
